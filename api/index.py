@@ -6,7 +6,7 @@ from mangum import Mangum
 app = FastAPI()
 
 # API KEY
-MY_API_KEY = "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"
+MY_API_KEY = "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"
 client = Groq(api_key=MY_API_KEY)
 
 @app.get("/", response_class=HTMLResponse)
