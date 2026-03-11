@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/", response_class=HTMLResponse)
 def home():
-    img_url = "https://raw.githubusercontent.com/aska0x/siggy-teacher-bot/main/siggy_kucing.png"
+    img_url = "https://raw.githubusercontent.com/aska0x/siggy-teacher-bot/main/siggy-kucing.png"
     
     return f"""
     <html>
@@ -62,3 +62,4 @@ def home():
     """
 
 handler = Mangum(app)
+
