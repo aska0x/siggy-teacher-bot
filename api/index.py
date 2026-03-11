@@ -12,7 +12,7 @@ client = Groq(api_key=MY_API_KEY)
 @app.get("/", response_class=HTMLResponse)
 def home():
     # Link Gambar Langsung dari GitHub kamu
-    img_url = "https://raw.githubusercontent.com/aska0x/siggy-teacher-bot/main/siggy_kucing.png"
+    img_url = "https://raw.githubusercontent.com/aska0x/siggy-teacher-bot/main/siggy-kucing.png"
     
     return f"""
     <html>
